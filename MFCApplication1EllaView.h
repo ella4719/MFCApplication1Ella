@@ -25,6 +25,9 @@ public:
 	CString m_strWindowSize;
 	CString m_strOutput;
 	BOOL m_bDrag;
+	CPoint m_ptMouseMove;
+	CString m_strMouseMove;
+
 protected:
 	virtual BOOL OnPreparePrinting(CPrintInfo* pInfo);
 	virtual void OnBeginPrinting(CDC* pDC, CPrintInfo* pInfo);

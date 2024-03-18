@@ -69,6 +69,8 @@ void CMFCApplication1EllaView::OnDraw(CDC* pDC)
 	CRect rect;
 	GetClientRect(&rect);
 	pDC->DrawText(m_strOutput, rect, DT_SINGLELINE | DT_CENTER | DT_VCENTER);
+
+	pDC->TextOut(m_ptMouseMove.x+ 20, m_ptMouseMove.y, m_strMouseMove);
 }
 
 
@@ -161,10 +163,14 @@ void CMFCApplication1EllaView::OnMouseMove(UINT nFlags, CPoint point)
 	if (m_bDrag == TRUE)
 	{
 		m_strOutput = _T("마우스를 드래그하고 있습니다.");
+		
+		
 	}
 	else
 	{
 		m_strOutput = _T("마우스르 이동 중 입니다.");
+		m_ptMouseMove = point;
+		m_strMouseMove.Format(_T("X:%d, Y:%d"), point.x, point.y);
 	}
 	Invalidate();
 	CView::OnMouseMove(nFlags, point);
