@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCApplication1Ella", "MFCApplication1Ella.vcxproj", "{00E71A13-2C48-4E02-BF50-2426F8DC6353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E71A13-2C48-4E02-BF50-2426F8DC6353}.Debug|x64.ActiveCfg = Debug|x64
+		{00E71A13-2C48-4E02-BF50-2426F8DC6353}.Debug|x64.Build.0 = Debug|x64
+		{00E71A13-2C48-4E02-BF50-2426F8DC6353}.Debug|x86.ActiveCfg = Debug|Win32
+		{00E71A13-2C48-4E02-BF50-2426F8DC6353}.Debug|x86.Build.0 = Debug|Win32
+		{00E71A13-2C48-4E02-BF50-2426F8DC6353}.Release|x64.ActiveCfg = Release|x64
+		{00E71A13-2C48-4E02-BF50-2426F8DC6353}.Release|x64.Build.0 = Release|x64
+		{00E71A13-2C48-4E02-BF50-2426F8DC6353}.Release|x86.ActiveCfg = Release|Win32
+		{00E71A13-2C48-4E02-BF50-2426F8DC6353}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E7F6949-3DC8-44E1-B21C-5236D1C0BC5E}
+	EndGlobalSection
+EndGlobal
