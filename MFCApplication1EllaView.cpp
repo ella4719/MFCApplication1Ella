@@ -168,7 +168,7 @@ void CMFCApplication1EllaView::OnMouseMove(UINT nFlags, CPoint point)
 	}
 	else
 	{
-		m_strOutput = _T("마우스르 이동 중 입니다.");
+		m_strOutput = _T("마우스를 이동 중 입니다.");
 		m_ptMouseMove = point;
 		m_strMouseMove.Format(_T("X:%d, Y:%d"), point.x, point.y);
 	}
